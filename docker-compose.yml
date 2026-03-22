@@ -1,0 +1,14 @@
+services:
+  mail_service:
+    build: .
+    env_file:
+      - .env
+    networks:
+      - tracker_dev
+    restart: always
+
+networks:
+  tracker_dev:
+    external: true
+    name: tracker_dev
+

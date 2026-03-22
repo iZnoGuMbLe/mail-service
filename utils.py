@@ -1,9 +1,8 @@
 import aio_pika
 
-import settings
 from client import MailClient
 from service import MailService
-from settings import Settings
+from settings import settings
 from broker import get_amqp_connection
 
 

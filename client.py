@@ -2,13 +2,13 @@ import asyncio
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from settings import Settings
+from settings import settings
 
 
 class MailClient:
 
     def __init__(self):
-        self.settings = Settings()
+        self.settings = settings
 
     async def send_email_task(self,subject: str, text: str, to: str):
         message = self._build_message(subject, text, to)
@@ -17,13 +17,14 @@ class MailClient:
     def _build_message(self,subject: str, text: str, to: str):
         message = MIMEMultipart()
 
-        message["From"] = self.settings.from_email
+        message["From"] = self.settings.FROM_EMAIL
         message["To"] = to
         message["Subject"] = subject
         message.attach( MIMEText(text, 'plain'))
         return message
 
     def _send_email(self,message: MIMEMultipart):
-        server = smtplib.SMTP(self.settings.SMTP_HOST, self.settings.SMTP_PORT)
+        server = smtplib.SMTP_SSL(self.settings.SMTP_HOST, self.settings.SMTP_PORT)
+        server.login("resend",self.settings.SMTP_PASSWORD)
         server.send_message(message)
         server.quit()

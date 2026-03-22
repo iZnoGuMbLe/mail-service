@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from settings import Settings
+from settings import settings
 from utils import make_amqp_connection
 
 

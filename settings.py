@@ -2,8 +2,14 @@ from pydantic_settings import BaseSettings,SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    from_email: str = "test@local.dev"
-    SMTP_HOST: str = "localhost"
-    SMTP_PORT: int = 1025
-    SMTP_PASSWORD: str = ""
-    AMQP_URL: str = 'amqp://guest:guest@localhost:5672/'
+    SMTP_HOST: str
+    SMTP_PORT: int
+    SMTP_PASSWORD: str
+    FROM_EMAIL: str
+    AMQP_URL: str
+    BASE_URL: str
+
+    class Config:
+        env_file = ".env"
+
+settings = Settings()

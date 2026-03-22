@@ -5,29 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e284d7-ea29-4fac-a285-23c1c7b2dbe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/infrastructure/broker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/infrastructure/broker/accessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mail_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/broker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/app/client/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/client/mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/app/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/dependencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/app/service/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/service/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/worker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pomodoro-Timer/app/consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pomodoro-Timer/worker/celery.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker.py" beforeDir="false" afterPath="$PROJECT_DIR$/broker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +28,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Pomodoro-Timer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -73,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "rabbit-for-mail-service"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">
